@@ -7,6 +7,7 @@ import Ex3 from './component/Ex3'
 import Ex4 from './component/Ex4'
 import Ex5 from './component/Ex5'
 import Ex6 from './component/Ex6'
+import Ex7 from './component/Ex7'
 
 
 // component body -> functionalz(es5), const arrow(es5), const functional(es5) ,class(es6)
@@ -14,7 +15,7 @@ import Ex6 from './component/Ex6'
 function App(props){
   return (
     <div>
-      {/* <h1>JSX PART OF THE REACT</h1>
+      <h1>JSX PART OF THE REACT</h1>
       <button>click me</button>
       <hr />
       <Button fname={"submit"} />
@@ -28,8 +29,9 @@ function App(props){
       <hr/>
       <Ex3/> 
       <Ex4/> 
-      <Ex5/>*/}
+      <Ex5/>
      <Ex6/>
+     <Ex7/>
     </div>
   )
 }
